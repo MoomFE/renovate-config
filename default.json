@@ -16,6 +16,18 @@
         "digest"
       ],
       "automerge": true
+    },
+    {
+      "groupName": "eslint",
+      "matchPackagePrefixes": ["eslint", "@moomfe/eslint-config", "@antfu/eslint-config"]
+    },
+    {
+      "groupName": "mixte",
+      "matchPackagePrefixes": ["mixte", "@mixte"]
+    },
+    {
+      "groupName": "dcloudio",
+      "matchPackagePrefixes": ["@dcloudio"]
     }
   ]
 }
