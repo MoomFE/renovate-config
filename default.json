@@ -28,6 +28,10 @@
     {
       "groupName": "dcloudio",
       "matchPackagePrefixes": ["@dcloudio"]
+    },
+    {
+      "groupName": "vitest",
+      "matchPackagePrefixes": ["vitest", "@vitest"]
     }
   ]
 }
