@@ -26,12 +26,16 @@
       "matchPackagePrefixes": ["mixte", "@mixte"]
     },
     {
-      "groupName": "dcloudio",
-      "matchPackagePrefixes": ["@dcloudio"]
+      "groupName": "vue",
+      "matchPackagePrefixes": ["vue", "@vue/compiler-sfc"]
     },
     {
       "groupName": "vitest",
       "matchPackagePrefixes": ["vitest", "@vitest"]
+    },
+    {
+      "groupName": "dcloudio",
+      "matchPackagePrefixes": ["@dcloudio"]
     }
   ]
 }
