@@ -27,19 +27,19 @@
     },
     {
       "groupName": "mixte",
-      "matchPackagePrefixes": ["mixte", "@mixte"]
+      "matchPackagePrefixes": ["mixte", "@mixte/"]
     },
     {
       "groupName": "vue",
-      "matchPackagePrefixes": ["vue", "@vue"]
+      "matchPackagePrefixes": ["vue", "@vue/"]
     },
     {
       "groupName": "vitest",
-      "matchPackagePrefixes": ["vitest", "@vitest"]
+      "matchPackagePrefixes": ["vitest", "@vitest/"]
     },
     {
       "groupName": "dcloudio",
-      "matchPackagePrefixes": ["@dcloudio"]
+      "matchPackagePrefixes": ["@dcloudio/"]
     }
   ]
 }
