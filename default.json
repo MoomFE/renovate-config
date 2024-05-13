@@ -18,6 +18,10 @@
       "automerge": true
     },
     {
+      "groupName": "packageManager",
+      "matchPackagePrefixes": ["npm", "yarn", "pnpm"]
+    },
+    {
       "groupName": "eslint",
       "matchPackagePrefixes": ["eslint", "@moomfe/eslint-config", "@antfu/eslint-config"]
     },
@@ -27,7 +31,7 @@
     },
     {
       "groupName": "vue",
-      "matchPackagePrefixes": ["vue", "@vue/compiler-sfc"]
+      "matchPackagePrefixes": ["vue", "@vue"]
     },
     {
       "groupName": "vitest",
