@@ -47,7 +47,8 @@
     },
     {
       "groupName": "nuxt",
-      "matchPackageNames": ["nuxt", "@nuxt/"],
+      "matchPackageNames": ["nuxt"],
+      "matchPackagePrefixes": ["@nuxt/"],
       "postUpgradeTasks": {
         "commands": ["npx nuxi@latest upgrade --force"],
         "fileFilters": ["pnpm-lock.yaml", "yarn.lock", "package-lock.json"]
