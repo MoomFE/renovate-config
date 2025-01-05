@@ -30,6 +30,10 @@
       "matchPackagePrefixes": ["vue", "@vue/"]
     },
     {
+      "groupName": "vueuse",
+      "matchPackagePrefixes": ["@vueuse/"]
+    },
+    {
       "groupName": "vitest",
       "matchPackagePrefixes": ["vitest", "@vitest/"]
     },
