@@ -42,6 +42,10 @@
       "matchPackagePrefixes": ["@dcloudio/"]
     },
     {
+      "groupName": "shiki",
+      "matchPackagePrefixes": ["shiki", "@shikijs/"]
+    },
+    {
       "groupName": "nuxt",
       "matchPackageNames": ["nuxt", "@nuxt/"],
       "postUpgradeTasks": {
