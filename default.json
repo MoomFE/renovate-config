@@ -23,19 +23,26 @@
     },
     {
       "groupName": "mixte",
-      "matchPackagePrefixes": ["mixte", "@mixte/"]
+      "matchPackageNames": ["mixte"],
+      "matchPackagePrefixes": ["@mixte/"]
     },
     {
       "groupName": "vue",
-      "matchPackagePrefixes": ["vue", "@vue/"]
+      "matchPackageNames": ["vue", "vue-tsc"],
+      "matchPackagePrefixes": ["@vue/"]
     },
     {
       "groupName": "vueuse",
       "matchPackagePrefixes": ["@vueuse/"]
     },
     {
+      "groupName": "unocss",
+      "matchPackagePrefixes": ["unocss", "@unocss/"]
+    },
+    {
       "groupName": "vitest",
-      "matchPackagePrefixes": ["vitest", "@vitest/"]
+      "matchPackageNames": ["vitest"],
+      "matchPackagePrefixes": ["@vitest/"]
     },
     {
       "groupName": "dcloudio",
@@ -43,7 +50,8 @@
     },
     {
       "groupName": "shiki",
-      "matchPackagePrefixes": ["shiki", "@shikijs/"]
+      "matchPackageNames": ["shiki"],
+      "matchPackagePrefixes": ["@shikijs/"]
     },
     {
       "groupName": "nuxt",
