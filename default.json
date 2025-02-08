@@ -18,6 +18,10 @@
       "automerge": true
     },
     {
+      "matchDepTypes": ["peerDependencies"],
+      "enabled": false
+    },
+    {
       "groupName": "eslint",
       "matchPackagePrefixes": ["eslint", "@moomfe/eslint-config", "@antfu/eslint-config"]
     },
