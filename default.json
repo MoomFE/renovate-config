@@ -36,6 +36,11 @@
       "matchPackagePrefixes": ["@vue/"]
     },
     {
+      "groupName": "pinia",
+      "matchPackageNames": ["pinia"],
+      "matchPackagePrefixes": ["@pinia/"]
+    },
+    {
       "groupName": "vueuse",
       "matchPackagePrefixes": ["@vueuse/"]
     },
