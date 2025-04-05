@@ -59,7 +59,7 @@
     },
     {
       "groupName": "shiki",
-      "matchPackageNames": ["shiki"],
+      "matchPackageNames": ["shiki", "shiki-magic-move"],
       "matchPackagePrefixes": ["@shikijs/"]
     },
     {
