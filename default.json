@@ -50,12 +50,12 @@
     },
     {
       "groupName": "vite",
-      "matchPackageNames": ["vite"],
-      "matchPackagePrefixes": ["@vitejs/", "unplugin-"]
+      "matchPackageNames": ["vite", "rollup", "postcss", "sass"],
+      "matchPackagePrefixes": ["@vitejs/", "unplugin-", "rollup-"]
     },
     {
       "groupName": "vitest",
-      "matchPackageNames": ["vitest", "vitest-browser-vue"],
+      "matchPackageNames": ["vitest", "vitest-browser-vue", "playwright", "jsdom"],
       "matchPackagePrefixes": ["@vitest/"]
     },
     {
