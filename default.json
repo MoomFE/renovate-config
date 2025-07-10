@@ -51,7 +51,7 @@
     {
       "groupName": "vite",
       "matchPackageNames": ["vite"],
-      "matchPackagePrefixes": ["@vitejs"]
+      "matchPackagePrefixes": ["@vitejs/"]
     },
     {
       "groupName": "vitest",
