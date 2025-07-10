@@ -87,8 +87,13 @@
     },
     {
       "groupName": "ui",
-      "matchPackageNames": ["element-plus", "naive-ui", "primevue"],
-      "matchPackagePrefixes": ["@ant-design/", "@arco-design/", "@primevue/"]
+      "matchPackageNames": ["element-plus", "naive-ui", "primevue", "@arco-design/web-vue"],
+      "matchPackagePrefixes": ["@primevue/"]
+    },
+    {
+      "groupName": "react-ui",
+      "matchPackageNames": ["@arco-design/web-react"],
+      "matchPackagePrefixes": ["@ant-design/"]
     }
   ]
 }
