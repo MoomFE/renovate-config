@@ -50,7 +50,7 @@
     },
     {
       "groupName": "vitest",
-      "matchPackageNames": ["vitest"],
+      "matchPackageNames": ["vitest", "vitest-browser-vue"],
       "matchPackagePrefixes": ["@vitest/"]
     },
     {
