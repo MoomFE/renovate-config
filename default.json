@@ -49,6 +49,11 @@
       "matchPackagePrefixes": ["unocss", "@unocss/"]
     },
     {
+      "groupName": "vite",
+      "matchPackageNames": ["vite"],
+      "matchPackagePrefixes": ["@vite/"]
+    },
+    {
       "groupName": "vitest",
       "matchPackageNames": ["vitest", "vitest-browser-vue"],
       "matchPackagePrefixes": ["@vitest/"]
