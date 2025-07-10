@@ -22,6 +22,10 @@
       "enabled": false
     },
     {
+      "groupName": "ts",
+      "matchPackageNames": ["typescript", "type-fest", "tsx"]
+    },
+    {
       "groupName": "eslint",
       "matchPackagePrefixes": ["eslint", "@moomfe/eslint-config", "@antfu/eslint-config"]
     },
@@ -51,7 +55,7 @@
     {
       "groupName": "vite",
       "matchPackageNames": ["vite", "rollup", "postcss", "sass"],
-      "matchPackagePrefixes": ["@vitejs/", "unplugin-", "rollup-"]
+      "matchPackagePrefixes": ["@vitejs/", "unplugin-", "rollup-", "@rollup/"]
     },
     {
       "groupName": "vitest",
@@ -80,6 +84,11 @@
       "groupName": "react",
       "matchPackageNames": ["react", "react-dom"],
       "matchPackagePrefixes": ["@types/react"]
+    },
+    {
+      "groupName": "ui",
+      "matchPackageNames": ["element-plus", "naive-ui", "primevue"],
+      "matchPackagePrefixes": ["@ant-design/", "@arco-design/", "@primevue/"]
     }
   ]
 }
